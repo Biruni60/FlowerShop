@@ -91,7 +91,33 @@ nav>UL {
 }
 
 /* main */
+/* instagram */
+.instagram{
+    margin: 130px 200px;
 
+}
+.instagram-container{
+    text-align: center;
+}
+.instagram-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.instagram-detail{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 280px 20px;
+}
+
+
+.instagram-image img{
+    padding-top: 5px;
+    width: 265px;
+    padding-right: 12.45px;
+}
 
 /* subscribe */
 .subscribe {
@@ -99,6 +125,7 @@ nav>UL {
     background-size: cover;
     margin: 0 200px;
     text-align: center;
+    margin-bottom: 130px;
 }
 
 .subscribe-title {
