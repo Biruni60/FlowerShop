@@ -90,8 +90,67 @@ nav>UL {
     border-radius: 5px;
 }
 
+/* main */
+
+
+/* subscribe */
+.subscribe {
+    background-image: url('images/Rectangle\ 9.png');
+    background-size: cover;
+    margin: 0 200px;
+    text-align: center;
+}
+
+.subscribe-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.subcribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+
+    font-weight: 400;
+    padding-bottom: 20px;
+
+
+}
+
+.subscribe-me {
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+
+.subscribe-me input {
+    height: 50px;
+    width: 600px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin-left: 110px;
+    margin-right: 5px;
+
+}
+
+.subscribe-me [input="text"] {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe-me button {
+    padding:10px 22px 18px ;
+    border: none;
+    border-radius: 4px;
+}
+
 /* footer section */
-footer {
+.foot {
     background-color: #111010;
     text-align: center;
     color: #f0ebf3;
@@ -106,6 +165,7 @@ footer {
     font-weight: 800;
     padding-top: 100px;
     padding-bottom: 20px;
+
 }
 
 .footer-title span {
